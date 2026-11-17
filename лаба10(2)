@@ -1,0 +1,17 @@
+def to_snake_case(s):
+    if not s:
+        return ""  
+    result = ""
+    for i in range(len(s)):
+        char = s[i]
+        if char.isupper() and i > 0:
+            result += "_" + char.lower()
+        else:
+            result += char.lower()           
+    return result
+#проверки
+print(to_snake_case("HelloWorld"))
+print(to_snake_case("HTTPServer"))
+print(to_snake_case("hello"))
+print(to_snake_case(""))
+print(to_snake_case("aB"))
