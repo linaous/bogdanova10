@@ -16,3 +16,10 @@ orig = [1,2,1]
 res = remove_duplicates_stable(orig)
 print(res)
 print(orig) #исходный не меняется
+
+#результаты
+[1, 2, 3]
+['a', 'b']
+[]
+[1, 2]
+[1, 2, 1]
