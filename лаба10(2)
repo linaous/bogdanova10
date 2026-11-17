@@ -15,3 +15,10 @@ print(to_snake_case("HTTPServer"))
 print(to_snake_case("hello"))
 print(to_snake_case(""))
 print(to_snake_case("aB"))
+
+#результаты
+hello_world
+h_t_t_p_server
+hello
+
+a_b
